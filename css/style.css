@@ -59,6 +59,7 @@ section {
   color: #10221b;
 }
 
+/* Header CSS */
 .header {
   position: fixed;
   top: 0;
@@ -125,6 +126,7 @@ section {
   display: none;
 }
 
+/* Search CSS */
 .search-form {
   position: fixed;
   top: 0;
@@ -212,6 +214,7 @@ section {
   color: #219150;
 }
 
+/* Homepage CSS */
 .home {
   padding: 0;
 }
@@ -261,14 +264,14 @@ section {
   padding: 1rem 0;
 }
 
+/* Swiper CSS */
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 3rem;
   color: #10221b;
 }
 
-
-
+/* About CSS */
 .about {
   background: #eee;
   display: -webkit-box;
@@ -315,6 +318,13 @@ section {
 }
 
 
+
+/* Layanan CSS */
+
+
+
+
+/* Blogs CSS */
 .blogs .slide {
   text-align: center;
   padding: 2rem;
@@ -364,6 +374,8 @@ section {
   color: #10221b;
 }
 
+
+/* Footer CSS */
 .footer {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/footer-bg.jpg) no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/footer-bg.jpg) no-repeat;
@@ -419,6 +431,7 @@ section {
   color: #219150;
 }
 
+/* Screen CSS */
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;
@@ -512,4 +525,3 @@ section {
     font-size: 3rem;
   }
 }
-/*# sourceMappingURL=style.css.map */
