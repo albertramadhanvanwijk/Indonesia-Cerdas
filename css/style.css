@@ -29,7 +29,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #10221b;
+  background: #7b0018;
 }
 
 section {
@@ -39,8 +39,8 @@ section {
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  border: 0.2rem solid #10221b;
-  color: #10221b;
+  border: 0.2rem solid #7b0018;
+  color: #7b0018;
   cursor: pointer;
   background: none;
   font-size: 1.7rem;
@@ -48,7 +48,7 @@ section {
 }
 
 .btn:hover {
-  background: #10221b;
+  background: #7b0018;
   color: #fff;
 }
 
@@ -56,7 +56,7 @@ section {
   text-align: center;
   margin-bottom: 2.5rem;
   font-size: 4rem;
-  color: #10221b;
+  color: #7b0018;
 }
 
 /* Header CSS */
@@ -84,28 +84,28 @@ section {
 .header .logo {
   margin-right: auto;
   font-size: 2.5rem;
-  color: #10221b;
+  color: #7b0018;
   font-weight: bolder;
 }
 
 .header .logo i {
-  color: #219150;
+  color: #f63c66;
 }
 
 .header .navbar a {
   margin-left: 2rem;
   font-size: 1.7rem;
-  color: #10221b;
+  color: #7b0018;
 }
 
 .header .navbar a:hover {
-  color: #219150;
+  color: #f63c66;
 }
 
 .header .navbar #nav-close {
   font-size: 5rem;
   cursor: pointer;
-  color: #10221b;
+  color: #7b0018;
   display: none;
 }
 
@@ -114,12 +114,12 @@ section {
   font-size: 2.5rem;
   margin-left: 2rem;
   cursor: pointer;
-  color: #10221b;
+  color: #7b0018;
 }
 
 .header .icons a:hover,
 .header .icons div:hover {
-  color: #219150;
+  color: #f63c66;
 }
 
 .header #menu-btn {
@@ -163,7 +163,7 @@ section {
 }
 
 .search-form #close-search:hover {
-  color: #219150;
+  color: #f63c66;
 }
 
 .search-form form {
@@ -211,7 +211,7 @@ section {
 }
 
 .search-form form label:hover {
-  color: #219150;
+  color: #f63c66;
 }
 
 /* Homepage CSS */
@@ -247,19 +247,19 @@ section {
 
 .home .box .content span {
   font-size: 4rem;
-  color: #10221b;
+  color: #7b0018;
 }
 
 .home .box .content h3 {
   font-size: 6rem;
-  color: #219150;
+  color: #f63c66;
   padding-top: .5rem;
   text-transform: uppercase;
 }
 
 .home .box .content p {
   line-height: 2;
-  color: #10221b;
+  color: #7b0018;
   font-size: 1.5rem;
   padding: 1rem 0;
 }
@@ -268,7 +268,7 @@ section {
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 3rem;
-  color: #10221b;
+  color: #7b0018;
 }
 
 /* About CSS */
@@ -307,12 +307,12 @@ section {
 
 .about .content h3 {
   font-size: 3rem;
-  color: #219150;
+  color: #f63c66;
 }
 
 .about .content p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: #7b0018;
   padding: 1rem 0;
   line-height: 2;
 }
@@ -338,7 +338,7 @@ section {
 }
 
 .blogs .slide .icons {
-  background: #10221b;
+  background: #7b0018;
   border-radius: .5rem;
   padding: 1rem;
   position: relative;
@@ -353,24 +353,24 @@ section {
 }
 
 .blogs .slide .icons a:hover {
-  color: #219150;
+  color: #f63c66;
 }
 
 .blogs .slide .icons a i {
   padding-right: .5rem;
-  color: #219150;
+  color: #f63c66;
 }
 
 .blogs .slide h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: #7b0018;
 }
 
 .blogs .slide p {
   font-size: 1.4rem;
   padding: 1rem 0;
   line-height: 2;
-  color: #10221b;
+  color: #7b0018;
 }
 
 
@@ -405,12 +405,12 @@ section {
 }
 
 .footer .box-container .box a i {
-  color: #219150;
+  color: #f63c66;
   padding-right: .5rem;
 }
 
 .footer .box-container .box a:hover {
-  color: #219150;
+  color: #f63c66;
 }
 
 .footer .box-container .box a:hover i {
@@ -427,7 +427,7 @@ section {
 }
 
 .footer .credit span {
-  color: #219150;
+  color: #f63c66;
 }
 
 /* Screen CSS */
