@@ -273,7 +273,7 @@ section {
 
 /* About CSS */
 .about {
-  background: #eee;
+  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,6 +320,23 @@ section {
 
 
 /* Service CSS */
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0.5rem 0 1rem;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
+h1.heading {
+  padding-bottom: 2rem;
+}
+
 
 
 
