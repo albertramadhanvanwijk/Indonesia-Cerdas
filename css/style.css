@@ -29,7 +29,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #7b0018;
+  background: #000000;
 }
 
 section {
@@ -39,8 +39,8 @@ section {
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  border: 0.2rem solid #7b0018;
-  color: #7b0018;
+  border: 0.2rem solid #f63c66;
+  color: #f63c66;
   cursor: pointer;
   background: none;
   font-size: 1.7rem;
@@ -48,7 +48,7 @@ section {
 }
 
 .btn:hover {
-  background: #7b0018;
+  background: #f63c66;
   color: #fff;
 }
 
@@ -56,7 +56,7 @@ section {
   text-align: center;
   margin-bottom: 2.5rem;
   font-size: 4rem;
-  color: #7b0018;
+  color: #000000;
 }
 
 /* Header CSS */
@@ -84,7 +84,7 @@ section {
 .header .logo {
   margin-right: auto;
   font-size: 2.5rem;
-  color: #7b0018;
+  color: #f63c66;
   font-weight: bolder;
 }
 
@@ -95,7 +95,7 @@ section {
 .header .navbar a {
   margin-left: 2rem;
   font-size: 1.7rem;
-  color: #7b0018;
+  color: #000000;
 }
 
 .header .navbar a:hover {
@@ -105,7 +105,7 @@ section {
 .header .navbar #nav-close {
   font-size: 5rem;
   cursor: pointer;
-  color: #7b0018;
+  color: #000000;
   display: none;
 }
 
@@ -114,7 +114,7 @@ section {
   font-size: 2.5rem;
   margin-left: 2rem;
   cursor: pointer;
-  color: #7b0018;
+  color: #000000;
 }
 
 .header .icons a:hover,
@@ -247,19 +247,19 @@ section {
 
 .home .box .content span {
   font-size: 4rem;
-  color: #7b0018;
+  color: #000000;
 }
 
 .home .box .content h3 {
   font-size: 6rem;
-  color: #f63c66;
+  color: #000000;
   padding-top: .5rem;
   text-transform: uppercase;
 }
 
 .home .box .content p {
   line-height: 2;
-  color: #7b0018;
+  color: #000000;
   font-size: 1.5rem;
   padding: 1rem 0;
 }
@@ -268,12 +268,11 @@ section {
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 3rem;
-  color: #7b0018;
+  color: #000000;
 }
 
 /* About CSS */
 .about {
-  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,8 +294,8 @@ section {
 
 .about .image img {
   width: 100%;
-  -webkit-box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 4rem 4rem 0 rgba(255, 0, 0, 0.1);
+          box-shadow: 4rem 4rem 0 rgba(255, 0, 0, 0.1);
 }
 
 .about .content {
@@ -307,12 +306,12 @@ section {
 
 .about .content h3 {
   font-size: 3rem;
-  color: #f63c66;
+  color: #000000;
 }
 
 .about .content p {
   font-size: 1.5rem;
-  color: #7b0018;
+  color: #000000;
   padding: 1rem 0;
   line-height: 2;
 }
@@ -320,6 +319,7 @@ section {
 
 
 /* Service CSS */
+
 .card:hover {
   cursor: pointer;
   box-shadow: 0.5rem 0 1rem;
@@ -355,7 +355,7 @@ h1.heading {
 }
 
 .blogs .slide .icons {
-  background: #7b0018;
+  background: #f63c66;
   border-radius: .5rem;
   padding: 1rem;
   position: relative;
@@ -370,24 +370,24 @@ h1.heading {
 }
 
 .blogs .slide .icons a:hover {
-  color: #f63c66;
+  color: #000000;
 }
 
 .blogs .slide .icons a i {
   padding-right: .5rem;
-  color: #f63c66;
+  color: #fff;
 }
 
 .blogs .slide h3 {
   font-size: 2rem;
-  color: #7b0018;
+  color: #000000;
 }
 
 .blogs .slide p {
   font-size: 1.4rem;
   padding: 1rem 0;
   line-height: 2;
-  color: #7b0018;
+  color: #000000;
 }
 
 
@@ -444,7 +444,7 @@ h1.heading {
 }
 
 .footer .credit span {
-  color: #f63c66;
+  color: #000000;
 }
 
 /* Screen CSS */
