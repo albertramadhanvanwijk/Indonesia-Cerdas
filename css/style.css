@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap');
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 html {
@@ -71,14 +71,14 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header.active {
   background: #fff;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .header .logo {
@@ -138,19 +138,19 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   z-index: 10000;
   -webkit-transform: translateY(-110%);
-          transform: translateY(-110%);
+  transform: translateY(-110%);
 }
 
 .search-form.active {
   -webkit-transform: translateY(0%);
-          transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 .search-form #close-search {
@@ -175,8 +175,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .search-form form input {
@@ -225,20 +225,20 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-size: cover !important;
   background-position: center !important;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding: 2rem 9%;
 }
 
 .home .box.second {
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .home .box .content {
@@ -253,7 +253,7 @@ section {
 .home .box .content h3 {
   font-size: 6rem;
   color: #000000;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   text-transform: uppercase;
 }
 
@@ -277,17 +277,17 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .about .image {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
   padding-right: 5rem;
   padding-bottom: 5rem;
 }
@@ -295,13 +295,13 @@ section {
 .about .image img {
   width: 100%;
   -webkit-box-shadow: 4rem 4rem 0 rgba(255, 0, 0, 0.1);
-          box-shadow: 4rem 4rem 0 rgba(255, 0, 0, 0.1);
+  box-shadow: 4rem 4rem 0 rgba(255, 0, 0, 0.1);
 }
 
 .about .content {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
 }
 
 .about .content h3 {
@@ -315,8 +315,6 @@ section {
   padding: 1rem 0;
   line-height: 2;
 }
-
-
 
 /* Service CSS */
 
@@ -337,9 +335,6 @@ h1.heading {
   padding-bottom: 2rem;
 }
 
-
-
-
 /* Blogs CSS */
 .blogs .slide {
   text-align: center;
@@ -350,13 +345,13 @@ h1.heading {
   height: 25rem;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: .5rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .blogs .slide .icons {
   background: #f63c66;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 1rem;
   position: relative;
   top: -2rem;
@@ -374,7 +369,7 @@ h1.heading {
 }
 
 .blogs .slide .icons a i {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
   color: #fff;
 }
 
@@ -390,7 +385,6 @@ h1.heading {
   color: #000000;
 }
 
-
 /* Footer CSS */
 .footer {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/footer-bg.jpg) no-repeat;
@@ -403,8 +397,8 @@ h1.heading {
 .footer .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -423,7 +417,7 @@ h1.heading {
 
 .footer .box-container .box a i {
   color: #f63c66;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .footer .box-container .box a:hover {
@@ -465,14 +459,14 @@ h1.heading {
   .home .box {
     padding: 2rem;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-position: right !important;
   }
   .home .box.second {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-position: left !important;
   }
   .home .box .content {
@@ -503,19 +497,19 @@ h1.heading {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .header .navbar.active {
     left: 0;
     -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
-            box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
   }
   .header .navbar a {
     margin: 1rem 0;
@@ -540,4 +534,48 @@ h1.heading {
   .heading {
     font-size: 3rem;
   }
+}
+
+.galeri {
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.galeri .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.galeri .image img {
+  width: 100%;
+  -webkit-box-shadow: 4rem 4rem 0 rgba(255, 0, 0, 0.1);
+  box-shadow: 4rem 4rem 0 rgba(255, 0, 0, 0.1);
+}
+
+.galeri .content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+}
+
+.galeri .content h3 {
+  font-size: 3rem;
+  color: #000000;
+}
+
+.galeri .content p {
+  font-size: 1.5rem;
+  color: #000000;
+  padding: 1rem 0;
+  line-height: 2;
 }
