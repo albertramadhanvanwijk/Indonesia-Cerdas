@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Layanan | Indonesia Pintar</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/indonesia.png">
+
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- font awesome link -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-	
-	<!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/layanan.css" />
 
-</head>
-<body>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+  <body>
     <header class="header">
+      <a href="#" class="logo text-decoration-none"> <i class="fa-solid fa-earth-asia"></i> Smart City </a>
 
-        <a href="#" class="logo text-decoration-none"> <i class="fa-solid fa-earth-asia"></i> Smart City </a>
-    
-        <nav class="navbar">
-            <div id="nav-close" class="fas fa-times"></div>
-            <a href="../index.html" class="text-decoration-none">Smart City</a>
-            <a href="../page/layanan.html" class="text-decoration-none" >Layanan</a>
-            <!--    smart health
+      <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="../index.html" class="text-decoration-none">Smart City</a>
+        <a href="../page/layanan.html" class="text-decoration-none">Layanan</a>
+        <!--    smart health
                     smart vacation
                     smart society
                     smart government
                     smart education 
             -->
-            <a href="../page/galeri.html" class="text-decoration-none">Galeri</a>
-            <a href="../page/berita page/berita.html" class="text-decoration-none">Berita</a>
-            <a href="../page/hubungi.html" class="text-decoration-none">Hubungi Kami</a>
-        </nav>
-    
-        <div class="icons">
-            <div id="menu-btn" class="fas fa-bars"></div>
-            <div id="search-btn" class="fas fa-search"></div>
-        </div>
-    
-    </header>
-    
-    <!-- header section ends -->
-    
-    <!-- search form  -->
-    
-    <div class="search-form">
-    
-        <div id="close-search" class="fas fa-times"></div>
-    
-        <form action="">
-            <input type="search" name="" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-    </div>
+        <a href="../page/galeri.html" class="text-decoration-none">Galeri</a>
+        <a href="../page/berita page/berita.html" class="text-decoration-none">Berita</a>
+        
+      </nav>
 
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- search form  -->
+
+    <div class="search-form">
+      <div id="close-search" class="fas fa-times"></div>
+
+      <form action="">
+        <input type="search" name="" placeholder="search here..." id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+    </div>
 
     <!-- <h1>LAYANAN</h1> -->
     <!--        smart health
@@ -70,27 +73,183 @@
                 smart education 
     -->
 
+    <!-- Layanan -->
+    <section class="container">
+      <br /><br /><br />
+      <h1 class="heading pb-3">Layanan Masyarakat</h1>
 
 
+      <!-- Smart Government -->
+      <div class="container kesehatan shadow">
+        <h1 class="pt-3 ms-3">Smart Government</h1>
+        <div class="row justify-content-start pb-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
+            <div class="card kartu shadow m-md-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
+              <img src="../images/layanan/devplan.png" class="card-img-top mt-3" alt="e-devplan" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">E-DevPlan</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="150">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/simpeg.jpg" class="card-img-top mt-3" alt="simpeg" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">SIMPEG</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/splp.png" class="card-img-top mt-3 ms-1" alt="SPLP" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">SPLP</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="350">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/cc.jpg" class="card-img-top mt-3" alt="command center" />
+              <div class="card-body">
+                <h3 class="text-center mt-3">Command Center</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="450">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/perizinan.jpg" class="card-img-top mt-3" alt="perizinan" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">Perizinan</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="550">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/ppid.jpg" class="card-img-top mt-3" alt="ppid" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">PPID</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
+      <!-- Smart Health -->
+      <div class="container kesehatan shadow">
+        <h1 class="pt-3 ms-3">Smart Health</h1>
+        <div class="row justify-content-start pb-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/vaccine.png" class="card-img-top mt-3" alt="Vaksinasi & Imunisasi" />
+              <div class="card-body">
+                <h3 class="text-center mt-3">Vaksinasi & Imunisasi</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="150">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/hospital.png" class="card-img-top mt-3" alt="RSUD" />
+              <div class="card-body">
+                <h3 class="text-center mt-3">Informasi RSUD</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/covid.png" class="card-img-top mt-3" alt="Covid" />
+              <div class="card-body">
+                <h3 class="text-center mt-3">Informasi Covid-19</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="350">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/doctor.png" class="card-img-top mt-3" alt="teledoctor" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">Teledokter</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="450">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/bpjs.png" class="card-img-top mt-3" alt="bpjs" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">BPJS</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="550">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/puskesmas.png" class="card-img-top mt-3" alt="e-puskesmas" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">E-Puskesmas</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
+    <br><br><br>
+    <!-- Smart Education -->
+    <div class="container kesehatan shadow">
+        <h1 class="pt-3 ms-3">Smart Education</h1>
+        <div class="row justify-content-start pb-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/scholarship.png" class="card-img-top mt-3" alt="scholarship" />
+              <div class="card-body">
+                <h3 class="text-center mt-5">Beasiswa</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6 mb-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="150">
+            <div class="card kartu shadow m-md-3">
+              <img src="../images/layanan/mbkm.jpg" class="card-img-top mt-5 mb-1" alt="MBKM" />
+              <div class="card-body">
+                <h3 class="text-center mt-5 p-2">Kampus Merdeka</h3>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <br><br><br>
 
-<!-- Optional JavaScript; choose one of the two! -->
 
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <section class="footer">
+      <div class="box-container"></div>
 
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <div class="credit">created by <span>Sekolah Vokasi IPB</span> | all rights reserved!</div>
+    </section>
 
-<!-- swiper -->
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-<!-- custom js file link  -->
-<script src="../js/script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-</body>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="../js/script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once:true,
+      });
+    </script>
+
+  </body>
 </html>
